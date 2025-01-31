@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.image("assets/profile.png")
-st.image("https://github.com/henhendri/multipage/blob/main/assets/profile.png")
+#st.image("https://github.com/henhendri/multipage/blob/main/assets/profile.png")
 st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
