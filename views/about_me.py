@@ -1,27 +1,5 @@
 import streamlit as st
 
-from forms.contact import contact_form
-
-
-@st.experimental_dialog("Contact Me")
-def show_contact_form():
-    contact_form()
-
-
-# --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
-with col1:
-   # st.image("./assets/profile_image.png", width=230)
-
-with col2:
-    st.title("Sven Bosau", anchor=False)
-    st.write(
-        "Senior Data Analyst, assisting enterprises by supporting data-driven decision-making."
-    )
-    if st.button("✉️ Contact Me"):
-        show_contact_form()
-
-
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
