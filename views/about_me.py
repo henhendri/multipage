@@ -1,4 +1,5 @@
 import streamlit as st
+import columns
 
 col1, col2, col3 = st.columns(2)
 
