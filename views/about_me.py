@@ -1,7 +1,7 @@
 import streamlit as st
 import columns
 
-col1, col2, col3 = st.columns(2)
+col1, col2, = st.columns(2)
 
 with col1:
     st.header("A cat")
