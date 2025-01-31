@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
+
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
