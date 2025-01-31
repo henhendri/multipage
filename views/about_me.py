@@ -1,6 +1,6 @@
 import streamlit as st
 
-#st.image("https://static.streamlit.io/examples/cat.jpg")
+st.image("https://static.streamlit.io/examples/cat.jpg", width=50)
 st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
