@@ -1,8 +1,7 @@
 import streamlit as st
 import columns
     
-#st.image("assets/profile.png")
-st.logo("assets/codingisfun_logo.png")
+st.image("https://github.com/henhendri/multipage/blob/main/assets/profile.png")
 st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
