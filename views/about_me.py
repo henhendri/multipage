@@ -1,7 +1,12 @@
 import streamlit as st
 
 st.image("assets/profile.png", width=200)
-st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
+st.write(    
+    st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
+    """
+    - 7 Years experience extracting actionable insights from data
+    """
+)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
