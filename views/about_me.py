@@ -1,7 +1,7 @@
 import streamlit as st
 import columns
     
-st.image("assets/profile,png", width=100)
+st.image("assets/profile.png", width=100)
 st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
