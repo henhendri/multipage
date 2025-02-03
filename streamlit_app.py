@@ -33,7 +33,7 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/codingisfun_logo.png")
+st.logo("assets/ngodingserumrhendri-1.png")
 st.sidebar.markdown("Made with ❤️")
 
 
