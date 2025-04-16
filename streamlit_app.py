@@ -18,6 +18,11 @@ project_2_page = st.Page(
     title="Chat Bot",
     icon=":material/smart_toy:",
 )
+project_2_page = st.Page(
+    "views/contact.py",
+    title="Contact",
+    icon=":material/telephone:",
+)
 
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
