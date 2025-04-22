@@ -5,7 +5,7 @@ st.header (":mailbox: Get in touch with Me!")
 st.title(f"Mail Message", anchor=False)
 
 
-contct_form = """
+contact_form = """
 <form action="https://formsubmit.co/your@email.com" method="POST">
      <input type="text" name="name" required>
      <input type="email" name="email" required>
