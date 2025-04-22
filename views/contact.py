@@ -2,13 +2,8 @@ import streamlit as st
 
 st.header (":mailbox: Get in touch with Me!")
 
-st.image("assets/profile.png", width=200)
-st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
-st.write( 
-    """
-    Teacher SMAN 20 BANDUNG
-    """
-)
+st.title(f"Mail Message", anchor=False)
+
 
 contct_form = """
 <form action="https://formsubmit.co/your@email.com" method="POST">
