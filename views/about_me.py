@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("assets/profile.png", width=200)
+st.image("assets/profile.png", width=200 forms/contact.py)
 st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
 st.write( 
     """
