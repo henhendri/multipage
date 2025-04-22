@@ -20,8 +20,8 @@ project_2_page = st.Page(
 )
 project_3_page = st.Page(
     "views/contact.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
+    title="Contact",
+    icon=":material/mailbox:",
 )
 
 
