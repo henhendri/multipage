@@ -31,7 +31,7 @@ contact = st.Page(
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
-        "Home": [about_page],
+        "Info": [about_page],
         "Projects": [project_1_page, project_2_page, project_3_page],
         "Contact": [contact]
     }
