@@ -6,7 +6,6 @@ st.title(f"Mail Message", anchor=False)
 
 
 st.page == "Contact":
-st.header("Contact Us")
 st.write("Feel free to contact us with any questions or inquiries.")
 
     contact_form = """
