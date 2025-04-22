@@ -18,7 +18,7 @@ project_2_page = st.Page(
     title="Chat Bot",
     icon=":material/smart_toy:",
 )
-project_3_page = st.Page(
+contact = st.Page(
     "views/contact.py",
     title="Contact",
     icon=":material/smart_toy:",
@@ -31,9 +31,9 @@ project_3_page = st.Page(
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
-        "Info": [about_page],
+        "Home": [about_page],
         "Projects": [project_1_page, project_2_page, project_3_page],
-        "Contact": [project_3_page]
+        "Contact": [contact]
     }
 )
 
