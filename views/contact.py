@@ -10,12 +10,12 @@ st.write(
     """
 )
 
-#contct_form = """
-#<form action="https://formsubmit.co/your@email.com" method="POST">
- #    <input type="text" name="name" required>
-  #   <input type="email" name="email" required>
-   #  <button type="submit">Send</button>
-#</form>
-#"""
+contct_form = """
+<form action="https://formsubmit.co/your@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>
+"""
 
-#st.markdown(contact_form, unsafe_allow_html=true)
+st.markdown(contact_form, unsafe_allow_html=true)
