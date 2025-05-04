@@ -5,7 +5,7 @@ st.header (":mailbox: Get in touch with Me!")
 st.title(f"Mail Message", anchor=False)
 
 
-st.page == "Contact":
+st.page == "contact":
 st.write("Feel free to contact us with any questions or inquiries.")
 
 contact_form_html = """
