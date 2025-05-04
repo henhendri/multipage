@@ -40,7 +40,7 @@ pg = st.navigation(
 
 # --- SHARED ON ALL PAGES ---
 st.logo("assets/ngodingseru.png")
-st.sidebar("Made with ❤️")
+#st.sidebar.markdown("Made with ❤️")
 
 
 # --- RUN NAVIGATION ---
