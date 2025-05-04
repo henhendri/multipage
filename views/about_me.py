@@ -7,9 +7,9 @@ st.write(
     Teacher SMAN 20 BANDUNG
     """
 )
-st.html("<p><span><a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=I+am+Teacher;I+am+Photographer;I+am+UI%2FUX+Designer;I+am+Freelancer" alt="Typing SVG" /></a>"
-</span></p>)
+st.html(
+    "<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>"
+)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
