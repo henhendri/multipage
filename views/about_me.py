@@ -14,39 +14,27 @@ st.html(
 )
 
 def typewriter(text, speed=50):
-    """Simulasi efek ketikan typewriter di Streamlit.
-
-    Args:
-        text (str): Teks yang akan ditampilkan.
-        speed (int, optional): Kecepatan ketikan dalam milidetik per karakter. Default adalah 50.
-    """
-    placeholder = st.empty()  # Membuat placeholder untuk teks yang akan diupdate
+    placeholder = st.empty()
     for char in text:
-        placeholder.markdown(f"<span style='font-family: monospace; font-size: 20px;'>{char}</span>")  # Menggunakan monospace untuk tampilan typewriter
-        time.sleep(speed / 1000)  # Mengubah kecepatan ke detik
+        placeholder.markdown(f"<span style='font-family: monospace; font-size: 20px;'>{char}</span>", unsafe_allow_html=True)
+        time.sleep(speed / 1000)
 
 def main():
-    """Fungsi utama untuk menjalankan aplikasi Streamlit."
     st.title("Efek Typewriter dengan Streamlit")
 
-    # Teks pembuka
-    typewriter("I am ", speed=25) #Perlambat sedikit agar "I am" tidak terlalu cepat
-
-    # Daftar pekerjaan
-    professions = ["Teacher", "Photographer"]
-    profession_index = 0
-
-    # Loop untuk mengganti pekerjaan setiap beberapa detik
+    # Teks yang bergerak
+    text_to_animate = "Ini adalah teks yang bergerak!"
+    
     while True:
-        profession = professions[profession_index]
-        placeholder_profesion = st.empty() # Membuat placeholder untuk kata Teacher/Photographer
-        typewriter(profession, speed=50)
-        time.sleep(2)  # Menunggu 2 detik sebelum menghapus
-        placeholder_profesion.markdown("") # Menghapus tulisan sebelumnya
-        profession_index = (profession_index + 1) % len(professions) #memastikan index tidak melebihi panjang list
+        for i in range(len(text_to_animate) + 1):
+            animated_text = text_to_animate[:i]
+            typewriter(animated_text, speed=75)  # Mengatur kecepatan animasi
+            time.sleep(0.1)  # Jeda sebentar
+            st.empty()  # Membersihkan output sebelumnya
 
 if __name__ == "__main__":
     main()
+
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("\n")
