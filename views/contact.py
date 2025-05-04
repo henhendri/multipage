@@ -7,8 +7,8 @@ st.title(f"Mail Message", anchor=False)
 
 st.page == "Contact":
 st.write("Feel free to contact us with any questions or inquiries.")
-st.html("
-    contact_form = """
+
+contact_form = """
     <form action="https://formsubmit.co/your@email.com" method="POST">
          <input type="text" name="name" placeholder="Your name" required>
          <input type="email" name="email" placeholder="Your email" required>
@@ -22,4 +22,3 @@ st.markdown(contact_form, unsafe_allow_html=True)
 # You can add other contact information below the form
 st.write("Email: contact@example.com")
 st.write("Phone: 123-456-7890")
-")
