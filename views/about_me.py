@@ -5,7 +5,7 @@ c1, c2 = st.coloumns(2)
 
 with c1 :
   #  with stylable_container():
-        st.image("assets/profile.png", width=200)
+    st.image("assets/profile.png", width=200)
     
 with c2 :
     st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
