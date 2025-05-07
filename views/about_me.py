@@ -1,13 +1,18 @@
 import streamlit as st
+from streamlit_extras.stylable_container as stylable_container
 
+c1, c2 = st.coloumns(2)
 
-st.image("assets/profile.png", width=200)
-st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
-st.write( 
+with c1 :
+    st.image("assets/profile.png", width=200)
+with c2 :
+    st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
+    st.write( 
     """
     Teacher SMAN 20 BANDUNG
     """
-)
+    )
+
 st.html(
     "<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>"
 
