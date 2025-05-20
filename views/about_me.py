@@ -4,6 +4,14 @@ import streamlit as st
 c1, c2 = st.columns(2)
 
 with c1 :
+    with stylable_container(
+        key="profile",
+        css_styles="""
+        img{
+            border-radius: 100px;
+        }
+        """,
+    )
     st.image("assets/profile.png", width=200)
     
 with c2 :
