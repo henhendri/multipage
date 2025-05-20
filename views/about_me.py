@@ -11,7 +11,7 @@ with c1 :
             border-radius: 100px;
         }
         """,
-  ):
+  )
         st.image("assets/profile.png", width=200)
 st.divider()
     
