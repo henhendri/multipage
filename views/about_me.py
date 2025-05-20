@@ -6,7 +6,7 @@ with c1 :
     st.image("assets/profile.png", width=200)
     
 with c2 :
-    st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
+    st.header(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
     st.write( 
     """
     Teacher SMAN 20 BANDUNG
