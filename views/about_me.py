@@ -4,15 +4,7 @@ from streamlit_extras.stylable_container as stylable_container
 c1, c2 = st.coloumns(2)
 
 with c1 :
-    with stylable_container(
-        key="profile",
-        css_styles="""
-        img{
-            border-radius: 100px;
-        }
-        """,
-    )
-        st.image("assets/profile.png", width=200)
+    st.image("assets/profile.png", width=200)
     
 with c2 :
     st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
