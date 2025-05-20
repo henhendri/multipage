@@ -1,18 +1,9 @@
 import streamlit as st
-from streamlit_extras.stylable_container as stylable_container
 
 c1, c2 = st.columns(2)
 
 with c1 :
-    with stylable_container(
-        key="profile",
-        css_styles="""
-        img{
-            border-radius: 100px;
-        }
-        """,
-    )
-    st.image("assets/profile.png", width=200)
+    st.image("assets/profile.png", width=200 border-radius: 100px)
     
 with c2 :
     st.title(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
