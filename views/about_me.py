@@ -1,7 +1,7 @@
 import streamlit as st
 #from streamlit_extras.stylable_container as stylable_container
 
-c1, c2 = st.coloumns(2)
+c1, c2 = st.columns(2)
 
 with c1 :
     st.image("assets/profile.png", width=200)
