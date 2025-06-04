@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="My Portfolio",
+    page_title="Mr. Hendri",
     page_icon=":computer:",
     layout="wide",  
     initial_sidebar_state="expanded"  
