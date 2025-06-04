@@ -5,13 +5,6 @@ c1, c2 = st.columns(2)
 
 with c1 :
     st.image("assets/profile.png", width=200)
-
-  #  return [
-        ("https://img.icons8.com/fluency/48/linkedin.png", "https://www.linkedin.com/in/adriel-alexs/", "LinkedIn"),
-        ("https://img.icons8.com/fluency/48/github.png", "https://github.com/AdrielProg", "GitHub"),
-        ("https://img.icons8.com/fluency/48/new-post.png", "mailto:adriel.alexs123@gmail.com", "Email"),  # Updated email icon
-        ("https://img.icons8.com/fluency/48/phone.png", "tel:+5583998178892", "Phone")
-   # ]
     
 with c2 :
     st.markdown(
