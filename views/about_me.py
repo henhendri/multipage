@@ -9,8 +9,8 @@ with c1 :
 with c2 :
     st.markdown(
         """
-            <div class="container" style="text-align: center; margin-top: -4px;">
-                <h3 class='custom-title' style='color: #3dd56d;'>Hendri Setiadi</h1>
+            <div class="container" style="text-align: left; margin-top: -4px;">
+                <h2 class='custom-title' style='color: #3dd56d;'>Hendri Setiadi, S.Tr.Kom</h1>
             </div>
             <div class="main-description"> 
             <ul>
