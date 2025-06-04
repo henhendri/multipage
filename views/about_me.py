@@ -11,9 +11,9 @@ with c2 :
         """
             <div class="container" style="text-align: left; margin-top: -4px;">
                 <h2 class='custom-title' style='color: #3dd56d;'>Hendri Setiadi, S.Tr.Kom</h2>
-                <h4 class='custom-title'>Teacher SMAN 20 Bandung</h4>
+                <p>Teacher SMAN 20 Bandung</p>
             </div>
-            st.subheader("Experience & Qualifications", anchor=False)
+           
             <div class="main-description"> 
             <ul>
                 <li><h6>Aspiring Software Developer & Microsoft Certified: Azure Developer Associate</h6></li>
