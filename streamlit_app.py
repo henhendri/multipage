@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="My Portfolio",
+    page_icon=":computer:",
+    layout="wide",  
+    initial_sidebar_state="expanded"  
+)
 
 # --- PAGE SETUP ---
 about_page = st.Page(
