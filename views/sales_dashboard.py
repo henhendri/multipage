@@ -80,5 +80,6 @@ else:
     # Ensure month column is formatted as two digits for consistency
     filtered_data["month"] = filtered_data["month"].apply(lambda x: f"{x:02d}")
 
+
 # Display the data
 st.bar_chart(filtered_data.set_index(filtered_data.columns[0])["sales_amount"])
