@@ -1,7 +1,7 @@
 import streamlit as st
 
 with st.container():
-    image_col, info_col = st.columns(2, gap="large")
+image_col, info_col = st.columns(2, gap="large")
 
     with image_col:
         st.image('profile.png')
@@ -12,21 +12,21 @@ with st.container():
 
     with info_col:
         st.markdown(
-            """
-                <div class="container" style="text-align: center; margin-top: -4px;">
+        """
+            <div class="container" style="text-align: center; margin-top: -4px;">
                 <h1 class='custom-title' style='color: #3dd56d; background-color: #0A0127;'>Adriel Alexander</h1>
-                </div>
-                <div class="main-description"> 
-                        <ul>
-                            <li><h6>Aspiring Software Developer & Microsoft Certified: Azure Developer Associate</h6></li>
-                            <li><h6>Systems Analysis and Development Student at Faculdade XP</h6></li>
-                            <li><h6>Passionate about data modeling and cloud technologies</h6></li> 
-                            <li><h6>Driven to innovate, collaborate, and make a positive impact</h6></li>
-                        </ul>
-                    </div>
-                """, 
-                unsafe_allow_html=True
-            )
+            </div>
+            <div class="main-description"> 
+                <ul>
+                    <li><h6>Aspiring Software Developer & Microsoft Certified: Azure Developer Associate</h6></li>
+                    <li><h6>Systems Analysis and Development Student at Faculdade XP</h6></li>
+                    <li><h6>Passionate about data modeling and cloud technologies</h6></li> 
+                    <li><h6>Driven to innovate, collaborate, and make a positive impact</h6></li>
+                </ul>
+            </div>
+            """, 
+            unsafe_allow_html=True
+        )
 
 
 c1, c2 = st.columns(2)
