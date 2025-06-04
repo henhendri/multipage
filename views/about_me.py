@@ -5,6 +5,7 @@ c1, c2 = st.columns(2)
 
 with c1 :
     st.image("assets/profile.png", width=200)
+def get_contact_info():
     return [
         ("https://img.icons8.com/fluency/48/linkedin.png", "https://www.linkedin.com/in/adriel-alexs/", "LinkedIn"),
         ("https://img.icons8.com/fluency/48/github.png", "https://github.com/AdrielProg", "GitHub"),
