@@ -11,7 +11,7 @@ with c2 :
         """
             <div class="container" style="text-align: left; margin-top: -4px;">
                 <h2 class='custom-title' style='color: #3dd56d;'>Hendri Setiadi, S.Tr.Kom</h2>
-                <h3 class='custom-title' style='color: #3dd56d;'>Teacher SMAN 20 Bandung</h3>
+                <h3 class='custom-title'>Teacher SMAN 20 Bandung</h3>
             </div>
             <div class="main-description"> 
             <ul>
