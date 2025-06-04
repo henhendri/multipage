@@ -8,21 +8,22 @@ with c1 :
     
 with c2 :
     st.markdown(
-                """
-                    <div class="container" style="text-align: center; margin-top: -4px;">
-                        <h1 class='custom-title' style='color: #3dd56d; background-color: #0A0127;'>Adriel Alexander</h1>
-                    </div>
-                    <div class="main-description"> 
-                        <ul>
-                            <li><h6>Aspiring Software Developer & Microsoft Certified: Azure Developer Associate</h6></li>
-                            <li><h6>Systems Analysis and Development Student at Faculdade XP</h6></li>
-                            <li><h6>Passionate about data modeling and cloud technologies</h6></li> 
-                            <li><h6>Driven to innovate, collaborate, and make a positive impact</h6></li>
-                        </ul>
-                    </div>
-                """, 
-                unsafe_allow_html=True
-            )
+        """
+            <div class="container" style="text-align: center; margin-top: -4px;">
+                <h1 class='custom-title' style='color: #3dd56d; background-color: #0A0127;'>Hendri Setiadi</h1>
+            </div>
+            <div class="main-description"> 
+            <ul>
+                <li><h6>Aspiring Software Developer & Microsoft Certified: Azure Developer Associate</h6></li>
+                <li><h6>Systems Analysis and Development Student at Faculdade XP</h6></li>
+                <li><h6>Passionate about data modeling and cloud technologies</h6></li> 
+                <li><h6>Driven to innovate, collaborate, and make a positive impact</h6></li>
+            </ul>
+            </div>
+        """, 
+        unsafe_allow_html=True
+    )
+    
     st.header(f"Hendri Setiadi, S.Tr.Kom., Gr.", anchor=False)
     st.write( 
     """
